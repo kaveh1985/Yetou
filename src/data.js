@@ -6,7 +6,7 @@ export const sample_foods = [
         price: 10,
         favorite: false,
         origin: ['Italy'],
-        stars: 4.5,
+        stars: 2.5,
         imageUrl: 'food-1.jpg',
         tags: ['Fast Food', 'Pizza']
     },
@@ -17,7 +17,7 @@ export const sample_foods = [
         price: 20,
         favorite: true,
         origin: ['Japan'],
-        stars: 4.8,
+        stars: 3.8,
         imageUrl: 'food-2.jpg',
         tags: ['Seafood', 'Japanese']
     },
@@ -39,7 +39,7 @@ export const sample_foods = [
         price: 12,
         favorite: true,
         origin: ['Italy'],
-        stars: 4.7,
+        stars: 2.7,
         imageUrl: 'food-4.jpg',
         tags: ['Italian', 'Pasta']
     },
@@ -50,7 +50,7 @@ export const sample_foods = [
         price: 9,
         favorite: false,
         origin: ['Mexico'],
-        stars: 4.6,
+        stars: 3.6,
         imageUrl: 'food-5.jpg',
         tags: ['Mexican', 'Street Food']
     },

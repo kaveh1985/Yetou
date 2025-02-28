@@ -1,16 +1,18 @@
 .header {
-    background: white;
-    padding: 0;
-    border-bottom: 1px solid #e72929;
-  }
+  background: white;
+  padding: 0;
+  border-bottom: 1px solid #608378;
+  box-shadow: 0 6px 10px rgba(71, 116, 104, 0.3); /* Stronger shadow */
+}
+
   
   .header a {
-    color: #af1313;
+    color: #13af13;
   }
   
   .header a:hover {
-    background: #e72929;
-    color: white;
+    /* background: #29e772;
+    color: white; */
     cursor: pointer;
   }
   
@@ -25,6 +27,13 @@
     padding: 1rem;
   }
   
+  .brand {
+     border-radius: 15px;
+     width: 6rem;
+     height: 100%;
+  }
+
+
   .header ul {
     display: flex;
     list-style-type: none;

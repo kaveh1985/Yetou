@@ -22,10 +22,23 @@ export default function Thumbnails({ foods }) {
 
                      }`}
                     >
+                    
                         &hearts; 
                     </span>
                     <div className={classes.stars}>
                         <StarRating  stars={food.stars}/>
+                    </div>
+                    <div className={classes.product_item_footer}>
+                        <div className={classes.origins}>
+                        {food.origin.map(origin => {
+                        //    console.log("Origin:", food); 
+                           return <span key={origin}>{origin}</span>;
+})}
+                        </div>
+                         <div className={classes.cook_time}>
+                            <span>&#9200;</span>
+                            {food.cookTime}
+                         </div>
                     </div>
                 </div>
 
