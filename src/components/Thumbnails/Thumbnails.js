@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import classes from './Thumbnails.module.css'
 import StarRating from '../StarRating/StarRating'
+import Price from '../Price/Price';
 
 
 export default function Thumbnails({ foods }) {
@@ -39,6 +40,9 @@ export default function Thumbnails({ foods }) {
                             <span>&#9200;</span>
                             {food.cookTime}
                          </div>
+                    </div>
+                    <div className={classes.price}>
+                    <Price price={food.price} currency="EUR" locale="fr-FR" />
                     </div>
                 </div>
 
